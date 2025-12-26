@@ -1,0 +1,2 @@
+**service quota:**<br>
+In AWS, a service quota (formerly called a limit) is the maximum amount of a specific resource or operation that you can use within an `AWS account for a given service and Region`.
