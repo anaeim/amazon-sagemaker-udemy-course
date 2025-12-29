@@ -155,7 +155,7 @@ def lambda_handler(event, context):
 
 ## 2. Amazon EventBridge
 
-**EventBridge** is a serverless event service that can trigger actions on a schedule or in response to events.
+**EventBridge** is a serverless event bus that can trigger actions on a schedule or in response to events.
 
 **Key points:**
 

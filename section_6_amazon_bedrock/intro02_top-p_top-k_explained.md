@@ -5,7 +5,7 @@ Q. What is Top-p?<br>
 A. When a language model generates text, it predicts a probability distribution over all possible next tokens.
 
 Top-p says:<br>
-“Only consider the smallest set of tokens whose cumulative probability is at least p, and randomly sample from that set.”
+“Only consider the smallest subset of tokens whose cumulative probability is at least p, and randomly sample from that subset.”
 
 ### next token prediction strategy when using top-p?
 When using top-p, the model:

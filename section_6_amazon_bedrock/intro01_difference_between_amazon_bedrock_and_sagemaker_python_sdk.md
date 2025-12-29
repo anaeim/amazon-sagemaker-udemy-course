@@ -18,13 +18,20 @@ Use **SageMaker** to *build and customize* models deeply.
 
 ### 1. Managed Access to Foundation Models
 Bedrock provides API access to leading foundation models such as:
-- Amazon **Titan**
-- **Claude** (Anthropic)
-- **Llama**
-- **Mistral**
-- **Stability AI**
+- **serverless pay-per-token LLMs:**
+  - Amazon **Titan**
+  - **Claude** (Anthropic)
+  - **Llama**
+  - **Mistral**
+  - **Stability AI**
 
-You do **not** need to:
+- **Knowledge Bases** (managed RAG pipelines)
+- **Guardrails** (content moderation, PII detection, policy enforcement)
+- **Agents** (tool use, orchestration, reasoning)
+- Managed embeddings models
+
+You do **not** need to:<br>
+managed infrastructure, maintenance and auto-scaling like:
 - Train models
 - Deploy endpoints
 - Manage scaling
@@ -41,7 +48,7 @@ Bedrock is:
 - Billed per input/output token
 
 With SageMaker:
-- You pay for instances (even when idle)
+- You pay for instances and infra-structure (even when idle).
 - You manage autoscaling and capacity planning
 
 For many GenAI workloads, Bedrock is simpler and more cost-effective.
